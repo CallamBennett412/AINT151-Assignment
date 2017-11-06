@@ -1,0 +1,39 @@
+#menu, #menu ul {
+  list-style-type: none;
+  margin-left:2px;
+  margin-right: 2px;
+  padding:0;
+
+}
+#menu>li{
+  display: inline;
+  position: relative;
+  float: left;
+  background-color: #00CED1;
+}
+
+#menu ul {
+  padding: 0;
+}
+
+#menu>li>a {
+  background-color: #999;
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu li>ul{
+  width:200px;
+  display: none;
+  position: absolute;
+}
+
+#menu>li:hover ul{
+  display: block;
+}
+
+
+
+.clear{
+  clear: both;
+}
