@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Elder Scrolls Adventures">
+<meta name="author" content="Callam Bennett">
+<title> Elder Scrolls Adventures | Deadlands Character Creation</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="JSFile.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="Elderscrolls">
+        <h1>Elder Scrolls <span class="highlight">Adventures</span></h1>
+        <p><span class="hightlightDeadlands">The Deadlands: </span>An Elder Scrolls <span class="highlight">Adventure</span></p>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="story.html">Story</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+<section id="deadlandsshowcase">
+  <div class="container">
+    <h1>During the events of the Oblivion Crisis...</h1>
+    <p>Trapped in the barren, desolate, and fiery realm of destruction known as the Deadlands, you must fight through the unstoppable tide of Dremora and Daedric creatures to the top of the Citadel... the key to closing the gate...</p>
+  </div>
+</section>
+
+</br>
+
+<section id="character">
+  <h1>Character Creation<h1>
+    <p>Please enter your character's name, colour and class then submit</p>
+  <div class="container">
+    <form onsubmit="return false;" id="character">
+    	Player name: <input type="text" id="playername" />
+    <br />
+      Player colour:	<input type="color" id="playercolour"/>
+    <br />
+    Player class:
+    <select id="playerclass">
+    	<option value="1">Mage</option>
+        <option value="2">Warrior</option>
+        <option value="3">Thief</option>
+    </select>
+    Player Race:
+    <select id="playerrace">
+      <option value="1">Imperial</option>
+        <option value="2">Breton</option>
+        <option value="3">Nord</option>
+        <option value="4">Redguard</option>
+          <option value="5">High Elf</option>
+          <option value="6">Dark Elf</option>
+          <option value="7">Wood Elf</option>
+            <option value="8">Orc</option>
+    </select>
+  </br>
+      <input class="CharSub" type="submit" onclick="CreatePlayer();" />
+    </form>
+    <img src="./img/Classes_HTML.jpg">
+  </div>
+</section>
+
+<section id="playerstats">
+  <h1>Player details</h1>
+  <h2>Player Name:</h2>
+  <h3 id="name"></h3>
+</br>
+  <h2>Player Colour:</h2>
+  <div id="colour" style="width:50px;height:50px;background-color:#000;"></div>
+</br>
+  <h2>Player Class:</h2>
+  <h3 id="class"></h3>
+</br>
+  <h2>Player Race:</h2>
+  <h3 id="race"></h3>
+  <img src="./img/Races_Oblivion.png">
+</section>
+
+<section id="Chp1">
+  <div class="container">
+    <h1>Now go! Head into Mehrunes Dagon's Realm and close shut the jaws... of Oblivion...</h1>
+    <p>Each Class has their own version of the story so if you want to come back and play the game again try picking another class to mix things up!</p>
+    <p></p>
+    <p>Enter the story via play button below</p>
+  </div>
+  <a id="PlyBtn" href="./Warrior/DeadlandsChp1Warrior.html" class="PlayButton">Play</a>
+</section>
+</body>
+
+<footer>
+  <h3>Elder Scrolls Adventures, a non-profit fan fiction site based on The Elder Scrolls series of games</h3>
+  <p>Created by Callam Bennett</p>
+</footer>
+</html>

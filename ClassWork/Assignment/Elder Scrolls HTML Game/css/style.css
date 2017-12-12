@@ -1,0 +1,399 @@
+body{
+  font-family:Planewalker;
+  font-size: 20px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color:#ffd9b3;
+}
+
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+
+/* HOME PAGE */
+
+
+
+header{
+  background: #c68c53;
+  color:#000000;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#4d2600 5px solid;
+}
+
+header #Elderscrolls p{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-style: bold;
+  float:left;
+  padding-right: 300px
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px
+}
+
+header #Elderscrolls{
+  float:left;
+  font-size: 30px;
+
+}
+
+header #Elderscrolls h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top: 12px;
+}
+
+header .highlight, header .current a{
+  color:#663300;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#000000;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height: 300px;
+  background:url('../img/elderscrollsAdventures_HTML.png') no-repeat 0 -400px ;
+  text-align:center;
+  color:#ffffff;
+}
+
+
+#showcase h1{
+  margin-top:100px;
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:18px;
+}
+
+
+#subscribe {
+  padding:15px;
+  color: #000000;
+  background:#c68c53;
+  border-bottom:#4d2600 5px solid;
+  border-top:#4d2600 5px solid;
+}
+
+#subscribe h2{
+  float:left;
+  color: #ffffff;
+  margin-left: 150px;
+}
+
+#subscribe form{
+  float:right;
+  margin-top: 25px;
+  margin-right: 130px;
+}
+
+#subscribe input[type="email"]{
+  padding:4px;
+  height: 25px;
+  width: 250px;
+}
+
+.SubButton{
+  height:38px;
+  background:#4d2600;
+  border: none;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.SubButton:hover{
+  background: #862d2d;
+}
+
+ .PlayButton{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: #ffffff;
+  height:38px;
+  background:#4d2600;
+  border: none;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top:5px;
+}
+
+.PlayButton:hover{
+  background: #862d2d;
+}
+
+#stories{
+  min-height: 300px;
+  text-align:center;
+  color:#ffffff;
+  background:url('../img/elderscrollsAdventures_HTML.png') no-repeat;
+}
+
+
+#play{
+  margin-top:0;
+  color:#000000;
+  border-top:#4d2600 5px solid;
+  padding-bottom: 60px
+}
+
+
+#play .pic{
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+
+}
+
+#play .pic img{
+  width: 250px;
+  height:200px;
+}
+
+
+
+footer{
+  padding:5px;
+  margin-bottom:0;
+  margin-top:20px;
+  background: #862d2d;
+  border-top:#4d2600 5px solid;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+/*Deadlands Story Page*/
+
+
+header .hightlightDeadlands{
+  color: #b30000;
+}
+
+#deadlandsshowcase{
+  min-height: 400px;
+  background:url('../img/Oblivion_HTML.jpg') no-repeat 0 -700px;
+  text-align:center;
+  color:#ffffff;
+  border-bottom: #4d2600 5px solid;
+}
+
+
+#deadlandsshowcase h1{
+  margin-top:200px;
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+#deadlandsshowcase p{
+  font-size:18px;
+}
+
+#character{
+padding:15px;
+color: #000000;
+background:#c68c53;
+border-top: #4d2600 5px solid;
+}
+
+#character h1{
+  text-align: center;
+  font-size: 40px;
+  border: #4d2600 2px solid;
+}
+
+#character p{
+  font-size: 20px;
+}
+
+#character form{
+  float:left;
+  border: none;
+  font-size: 30px;
+  text-align: left;
+  line-height: 50px;
+  margin-top: 25px;
+  margin-right: 130px;
+}
+
+.CharSub{
+  border: none;
+  color: #ffffff;
+  background: #4d2600;
+  width: 100px;
+  height: 50px;
+}
+
+.CharSub:hover{
+  background: #862d2d;
+}
+
+#playerstats{
+  padding: 10px;
+  border: #4d2600 2px solid;
+  color: #000000;
+  background: #c68c53;
+  border-bottom:#4d2600 5px solid;
+  text-align: center;
+}
+
+#playerstats h1{
+  border: #4d2600 6px solid;
+  border-radius:100px;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+#playerstats h2{
+  font-size: 30px;
+}
+
+#playerstats h3{
+  font-size: 40px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #4d2600;
+  text-align: center;
+}
+
+#playerstats h3:hover{
+  background: #862d2d;
+}
+
+#colour {
+margin: 0;
+padding: 0;
+line-height: 1px;
+margin-left: 49%;
+margin-right: 49%;
+width: 10px;
+}
+
+#playerstats img{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width: 1000px;
+}
+
+#Chp1{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+#Chp1 h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+#Chp1 p{
+  font-size: 30px;
+  text-align: center;
+}
+
+#Chp1 .PlayButton{
+  float:right;
+  margin-right: 48%;
+}
+
+
+
+/* Chapter 1 */
+
+
+#deadlandsChp1showcase{
+  min-height: 400px;
+  background:url('../img/Oblivion_HTML.jpg') no-repeat 0 -700px;
+  text-align:center;
+  color:#ffffff;
+  border-bottom: #4d2600 5px solid;
+  line-height: 20px;
+}
+
+
+#deadlandsChp1showcase h1{
+  margin-top:150px;
+  font-size:60px;
+  margin-bottom:10px;
+}
+
+#deadlandsChp1showcase p{
+  font-size:40px;
+}
+
+#narrative h2{
+  text-align: center;
+  margin: 0;
+  margin-top: 70px;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+#narrative p{
+  margin: 0;
+  margin-left: 50px;
+  margin right: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#choices{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+#choices label{
+  visibility: visible;
+  margin-top: 30px;
+  margin-left: 12px;
+  margin-right: 15px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: : 2px;
+  border-radius: 100px;
+  position: relative;
+}
+
+#choices label:hover{
+  visibility: visible;
+  background-color: #ffffff
+}
