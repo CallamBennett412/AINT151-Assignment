@@ -36,4 +36,16 @@ function CreatePlayer()
     document.getElementById("race").innerHTML = "Orc";
   }
 
+window.scrollTo(0, 1230)
+}
+
+function Ambience() {
+var audio = document.getElementById("GameAudio").autoplay;
+var audio = document.getElementById("GameAudio").loop;
+document.getElementById("HellAmb").innerHTML = audio;
+}
+
+function IntroMusic() {
+var i = document.getElementById("IntroAudio").autoplay;
+document.getElementById("Intro").innerHTML = i;
 }

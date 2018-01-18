@@ -7,9 +7,11 @@
     <meta name="author" content="Callam Bennett">
     <title> Elder Scrolls Adventures | Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="JSFile.js"></script>
   </head>
 
   <body>
+
     <header>
       <div class="container">
         <div id="Elderscrolls">
@@ -18,12 +20,16 @@
         <nav>
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="story.html">Story</a></li>
+            <li><a href="Deadlands1.html">About</a></li>
+            <li><a href="./Warrior/Welcome.html">Story</a></li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <audio id="IntroAudio" autoplay>
+    <source src="./Music/IntroSong.wav" type="audio/wav">
+  </audio>
 
     <section id="showcase">
       <div class="container">
@@ -48,7 +54,7 @@
           <p></p>
           <p>Enter the story via play button below</p>
         </div>
-        <a href="Deadlands1.html" class="PlayButton">Play</a>
+        <a href="Deadlands1.html" onclick="play" class="PlayButton">Play</a>
       </section>
 
         <section id="play">
@@ -58,7 +64,7 @@
               <img src="./img/Citadel_HTML.jpg">
             </div>
             <div class="pic">
-              <h2>The Sigil Keeper</h2>
+              <h2>Sigillium Sanctus</h2>
               <img src="./img/SigilKeeper_HTML.jpg">
             </div>
             <div class="pic">

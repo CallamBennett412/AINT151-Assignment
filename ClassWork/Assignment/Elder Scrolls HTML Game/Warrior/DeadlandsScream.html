@@ -6,10 +6,12 @@
 <meta name="author" content="Callam Bennett">
 <title> Elder Scrolls Adventures | Deadlands Chapter 1</title>
 <link rel="stylesheet" href="../css/style.css">
-<script src="JSFile.js"></script>
 </head>
 
 <body>
+  <audio id="btnSound" autoplay>
+  <source src="../Music/MenuClick.wav" type="audio/wav">
+</audio>
   <header>
     <div class="container">
       <div id="Elderscrolls">
@@ -26,12 +28,6 @@
     </div>
   </header>
 
-<section id="deadlandsChp1showcase">
-  <div class="container">
-    <h1>Chapter One:</h1>
-    <p>The Flesh Spire</p>
-  </div>
-</section>
 
 <section id="narrative">
     <h2> Prison Cage </h2>
@@ -42,16 +38,10 @@
   <form action="next">
     <div class="choice" classname="choice">
       <label for="0" class="firstchild" classname="firstchild" accesskey="1">
-        <input type="radio" name="choice" value="0" id="0" onclick="window.location.href='DeadlandsChp2.html'">
-        - Try something else
+        <a href="DeadlandsChp2.html">Try something else</a>
       </label>
     </div>
   </form>
 </section>
 </body>
-
-<footer>
-  <h3>Elder Scrolls Adventures, a non-profit fan fiction site based on The Elder Scrolls series of games</h3>
-  <p>Created by Callam Bennett</p>
-</footer>
 </html>
